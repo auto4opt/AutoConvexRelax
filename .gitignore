@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Generated artifacts
+outputs/checkpoints/
+outputs/data/
+outputs/logs/
+outputs/tmp/
+outputs/train_runs/
+train_runs/
+*.pkl
+*.pt
+*.json.tmp

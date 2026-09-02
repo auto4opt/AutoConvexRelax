@@ -1,0 +1,19 @@
+# Core symbolic and learning stack
+numpy>=1.24,<3
+sympy>=1.12,<2
+torch==2.4.1
+torch-geometric>=2.5,<3
+
+# Evaluation and figure generation
+matplotlib>=3.8,<4
+pandas>=2.0,<3
+networkx>=3.0,<4
+pydot>=2.0,<5
+
+# Solver interfaces. Separate solver licenses may be required.
+gurobipy>=11,<13
+Mosek>=10,<12
+pyscipopt>=5,<6
+
+# Tests
+pytest>=8,<9

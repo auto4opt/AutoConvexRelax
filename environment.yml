@@ -1,0 +1,23 @@
+name: autoconvexrelax
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.10.18
+  - pytorch=2.4.1
+  - pytorch-cuda=12.1
+  - pyg>=2.5,<3
+  - numpy>=1.24,<3
+  - sympy>=1.12,<2
+  - matplotlib>=3.8,<4
+  - pandas>=2.0,<3
+  - networkx>=3.0,<4
+  - pydot>=2.0,<5
+  - pytest>=8,<9
+  - pip
+  - pip:
+      - gurobipy>=11,<13
+      - Mosek>=10,<12
+      - pyscipopt>=5,<6
